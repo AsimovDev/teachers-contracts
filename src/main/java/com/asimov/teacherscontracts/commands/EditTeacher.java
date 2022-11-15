@@ -7,9 +7,9 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier;
 public class EditTeacher {
     @TargetAggregateIdentifier
     private String teacherId;
-    private String point;
     private String firstName;
     private String lastName;
+    private String point;
     private String age;
     private String email;
     private String password;

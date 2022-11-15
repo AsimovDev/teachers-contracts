@@ -7,9 +7,9 @@ import java.time.Instant;
 @Value
 public class TeacherEdited {
     private String teacherId;
-    private String point;
     private String firstName;
     private String lastName;
+    private String point;
     private String age;
     private String email;
     private String password;
